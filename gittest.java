@@ -14,17 +14,17 @@ public class gittest {
 	}
 
 	@Test
-	public void test_case_1() {
+	public void isWellSorted_test_one_true() {
 		assertTrue(test_one.isWellSorted(new String[]{"A", "B", "C", "D", "E"}));
 	}
 	
 	@Test
-	public void test_case_2(){
+	public void isWellSorted_test_two_false(){
 		assertFalse(test_two.isWellSorted(new String[]{"A"}));
 	}
 	
 	@Test
-	public void test_case_3(){
+	public void isWellSored_test_two_false(){
 		assertFalse(test_two.isWellSorted(new String[]{}));
 	}
 
