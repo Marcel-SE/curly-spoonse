@@ -22,5 +22,10 @@ public class gittest {
 	public void test_case_2(){
 		assertFalse(test_two.isWellSorted(new String[]{"A"}));
 	}
+	
+	@Test
+	public void test_case_3(){
+		assertFalse(test_two.isWellSorted(new String[]{}));
+	}
 
 }
